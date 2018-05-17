@@ -23,5 +23,7 @@ $ <b>git push heroku master</b>
 
 $ <b>heroku run rails db:migrate</b>
 
+$ <b>heroku run rails db:seed</b>
+
 $ <b>heroku open</b>
 </pre></code>

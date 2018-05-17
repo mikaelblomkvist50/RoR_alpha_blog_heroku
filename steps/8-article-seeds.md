@@ -1,3 +1,5 @@
+`db/seeds.rb`:
+```ruby
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
@@ -18,3 +20,8 @@ Article.create(title: 'Efficient Rails DevOps Review', description: 'Efficient R
 Article.create(title: 'How Money Got Free: Bitcoin and the Fight for the Future of Finance Review', description: "After ignoring it for the first few years of its existence, major investors—venture-capital firms, Goldman Sachs, the New York Stock Exchange, and billionaires like Richard Branson and Peter Thiel—have now decided to risk more than $1 billion of investment capital on digital-currency businesses. How did an invention that, a few years ago, wasn’t taken seriously by anyone, come to be praised by Bill Gates as 'better than currency'?")
 
 Article.create(title: 'Text Processing with Ruby: Extract Value from the Data That Surrounds You Review', description: "Text is everywhere. Web pages, databases, the contents of files--for almost any programming task you perform, you need to process text. Cut even the most complex text-based tasks down to size and learn how to master regular expressions, scrape information from Web pages, develop reusable utilities to process text in pipelines, and more.")
+```
+
+<pre><code>
+$ <b>rake db:seed</b>
+</pre></code>

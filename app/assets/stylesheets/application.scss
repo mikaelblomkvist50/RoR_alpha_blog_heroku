@@ -1,2 +1,30 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import 'article_form';
+
+nav {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+
+.articles {
+  margin-bottom: 20px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+@include media-breakpoint-only(xs) {
+  .btn-block-xs-only {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+  }
+}

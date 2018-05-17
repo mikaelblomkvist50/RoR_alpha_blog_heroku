@@ -1,3 +1,5 @@
+`app/views/articles/show.html.erb`:
+```html
 <div class="card card-body bg-light">
   <h2 align="center"><%= @article.title %></h2>
   <hr>
@@ -13,3 +15,4 @@
       <%= link_to 'View all articles', articles_path, class: "btn btn-xs btn-primary" %>
     </div>
 </div>
+```

@@ -1,3 +1,5 @@
+`app/views/articles/index.html.erb`:
+```html
 <h1 align="center">Listing all articles</h1>
 
 <% @articles.each do |article| %>
@@ -25,3 +27,39 @@
     </div>
   </div>
 <% end %>
+```
+
+`app/assets/stylesheets/application.scss`:
+```css
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+@import 'footer';
+@import 'article_form';
+
+nav {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+
+.articles {
+  margin-bottom: 20px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+@include media-breakpoint-only(xs) {
+  .btn-block-xs-only {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+  }
+}
+```
