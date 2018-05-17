@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'bootstrap', '~> 4.0'
+gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
